@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+
+	<title>Document</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header__bg"></div>
+		<div class="container1">
+			<div class="header__upper">
+
+				<a href="#" class="header__logo"><img src="img/logo1.png"></a>
+				<div id="header__burger" class="header__burger"></div>
+				<div class="header__menu" id="header__menu">
+					<div class="header__menu-item">Main</div>
+					<div class="header__menu-item">Gallery</div>
+					<div class="header__menu-item">News</div>
+					<div class="header__menu-item">Profile</div>
+				</div>
+				<div class="header__callback">
+					<a href="" class="header__callback-tel">+544 3490 00000</a>
+					<div class="header__callback-rightnow">Звони скорее!</div>
+				</div>
+			</div>
+			<div class="header__result">Найдено 349 котов</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="base">
+			<div class="base__sort">
+				<p>Сортировать по:</p>
+				<button class="price">Цена</button>
+				<button class="age">Возраст</button>
+			</div>
+			<div class="base__items" id="products">
+				<div class="base__item">
+					<img src="img/cat1.jpg" alt="1">
+					
+					<div class="base__item-content">
+						<button class="like"></button>
+						<div class="base__item-content cat-name">Кот полосатый</div>
+						<div class="base__item-content features">
+							<div class="features-line"></div>
+							<div class="features-color">Коричневый окрас</div>
+							<div class="features-age"><span>2 мес.</span> Возраст</div>
+							<div class="features-count"><span>4</span>Кол-во лап</div>
+						</div>
+						<div class="features-price">30 000 руб.</div>
+
+					</div>
+					<button>Купить</button>
+				</div>
+				<div class="base__item">
+					<img src="img/cat3.jpg" alt="1">
+					<div class="base__item-content">
+						<button class="like"></button>
+						<div class="base__item-content cat-name">Кот полосатый</div>
+						<div class="base__item-content features">
+							<div class="features-line"></div>
+							<div class="features-color">Коричневый окрас</div>
+							<div class="features-age"><span>4 мес.</span> Возраст</div>
+							<div class="features-count"><span>4</span>Кол-во лап</div>
+						</div>
+						<div class="features-price">30 000 руб.</div>
+
+					</div>
+					<button>Купить</button>
+				</div>
+				<div class="base__item">
+					<img src="img/cat2.jpg" alt="1">
+					<div class="base__item-content">
+						<button class="like"></button>
+						<div class="base__item-content cat-name">Кот полосатый</div>
+						<div class="base__item-content features">
+							<div class="features-line"></div>
+							<div class="features-color">Коричневый окрас</div>
+							<div class="features-age"><span>1 мес.</span> Возраст</div>
+							<div class="features-count"><span>4</span>Кол-во лап</div>
+						</div>
+						<div class="features-price">20 000 руб.</div>
+
+					</div>
+					<button>Купить</button>
+				</div>
+				<div class="base__item">
+					<img src="img/cat3.jpg" alt="1">
+					<div class="base__item-content">
+						<button class="like"></button>
+						<div class="base__item-content cat-name">Кот полосатый</div>
+						<div class="base__item-content features">
+							<div class="features-line"></div>
+							<div class="features-color">Коричневый окрас</div>
+							<div class="features-age"><span>2 мес.</span> Возраст</div>
+							<div class="features-count"><span>4</span>Кол-во лап</div>
+						</div>
+						<div class="features-price">10 000 руб.</div>
+
+					</div>
+					<button>Купить</button>
+				</div>
+				<div class="base__item">
+					<img src="img/cat1.jpg" alt="1">
+					<div class="base__item-content">
+						<button class="like"></button>
+						<div class="base__item-content cat-name">Кот полосатый</div>
+						<div class="base__item-content features">
+							<div class="features-line"></div>
+							<div class="features-color">Коричневый окрас</div>
+							<div class="features-age"><span>2 мес.</span> Возраст</div>
+							<div class="features-count"><span>4</span>Кол-во лап</div>
+						</div>
+						<div class="features-price">40 000 руб.</div>
+
+					</div>
+					<button>Купить</button>
+				</div>
+				<div class="base__item">
+					<img src="img/cat2.jpg" alt="1">
+					<div class="base__item-content">
+						<button class="like"></button>
+						<div class="base__item-content cat-name">Кот полосатый</div>
+						<div class="base__item-content features">
+							<div class="features-line"></div>
+							<div class="features-color">Коричневый окрас</div>
+							<div class="features-age"><span>2 мес.</span> Возраст</div>
+							<div class="features-count"><span>4</span>Кол-во лап</div>
+						</div>
+						<div class="features-price">30 000 руб.</div>
+
+					</div>
+					<button>Купить</button>
+				</div>
+				<div class="base__item">
+					<img src="img/cat3.jpg" alt="1">
+					<div class="base__item-content">
+						<button class="like"></button>
+						<div class="base__item-content cat-name">Кот полосатый</div>
+						<div class="base__item-content features">
+							<div class="features-line"></div>
+							<div class="features-color">Коричневый окрас</div>
+							<div class="features-age"><span>2 мес.</span> Возраст</div>
+							<div class="features-count"><span>4</span>Кол-во лап</div>
+						</div>
+						<div class="features-price">30 000 руб.</div>
+
+					</div>
+					<button>Купить</button>
+				</div>
+				<div class="base__item">
+					<img src="img/cat1.jpg" alt="1">
+					<div class="base__item-content">
+						<button class="like"></button>
+						<div class="base__item-content cat-name">Кот полосатый</div>
+						<div class="base__item-content features">
+							<div class="features-line"></div>
+							<div class="features-color">Коричневый окрас</div>
+							<div class="features-age"><span>2 мес.</span> Возраст</div>
+							<div class="features-count"><span>4</span>Кол-во лап</div>
+						</div>
+						<div class="features-price">30 000 руб.</div>
+
+					</div>
+					<button>Купить</button>
+				</div>
+				<div class="base__item">
+					<img src="img/cat2.jpg" alt="1">
+					<div class="base__item-content">
+						<button class="like"></button>
+						<div class="base__item-content cat-name">Кот полосатый</div>
+						<div class="base__item-content features">
+							<div class="features-line"></div>
+							<div class="features-color">Коричневый окрас</div>
+							<div class="features-age"><span>2 мес.</span> Возраст</div>
+							<div class="features-count"><span>4</span>Кол-во лап</div>
+						</div>
+						<div class="features-price">30 000 руб.</div>
+
+					</div>
+					<button>Купить</button>
+				</div>
+			</div>
+		</div>
+		<button class="more">Показать еще</button>
+		<button class="scroll"></button>
+		<div class="dist">
+			<div class="dist__title">
+				<h1>Успей купить!</h1>
+				<p>Подпишись и успей<br> словить все акции</p>
+			</div>
+			<div class="dist__form">
+				<form class="dist__form-inputs" id="mainform">
+					<input type="text" placeholder="Email" class="_req _email">
+					<button type="submit">Подписаться</button>
+				</form>
+				<div class="dist__check">
+					<label>
+						<input class="dist__check-oldcheck" type="checkbox">
+						<span class="dist__check-newcheck"></span>
+					Подписаться на новости</label>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script>
+		$(".base__item").slice(0, 3).show();
+
+		$(".more").on("click",function(){
+			$(".base__item:hidden").slice(0, 3).show();
+			$('.scroll:hidden').slice(0, 1).show();
+
+			if($(".base__item:hidden").length == 0)
+			{
+				$(".more").fadeOut();
+			}
+		})
+
+
+		$('.price').on('click', function(){
+			var getPrice = block=>parseInt(block.querySelector('.features-price').textContent)
+
+			var p = document.querySelector('#products');
+			Array.prototype.slice.call(p.children)
+			.map(x => p.removeChild(x))
+			.sort((x, y) => getPrice(x) > getPrice(y) ? 1 : -1)
+			.forEach(x => p.appendChild(x));
+		})
+
+		$('.age').on('click', function(){
+			var getPrice = block=>parseInt(block.querySelector('.features-age').textContent)
+
+			var p = document.querySelector('#products');
+			Array.prototype.slice.call(p.children)
+			.map(x => p.removeChild(x))
+			.sort((x, y) => getPrice(x) > getPrice(y) ? 1 : -1)
+			.forEach(x => p.appendChild(x));
+		})
+
+
+		$(".scroll").click(function() { // ID откуда кливаем
+			$('html, body').animate({
+        scrollTop: $(".base").offset().top  // класс объекта к которому приезжаем
+    }, 1000); // Скорость прокрутки
+		});
+
+
+		$('.like').click(function(){
+			toastr.info('Кот успешно добавлен в избранное!')
+		});
+			
+
+	</script>
+	<script src="js/burger.js"></script>
+	<script src="js/validator.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+</body>
+</html>
